@@ -5,7 +5,7 @@ error_reporting(0);
 $server="localhost";
 $usuario="root";
 $password="";
-$basedatos="ubigeo_ajax";
+$basedatos="nortwin";
 
 $cn=mysql_connect($server,$usuario,$password);
 
