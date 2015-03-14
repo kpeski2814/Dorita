@@ -16,25 +16,6 @@ while ($fs = mysql_fetch_object($resultado)) {
 
 
 
-<select name="departamento" id="departamento">
-	
-	<?php 
-    for ($i=0; $i < count($datos); $i++) { 
-   ?>
-	<option value="<?= $datos[$i]->idDepa ?>"><?= $datos[$i]->departamento ?></option>
-	
-	 <?php 
-   }
-  ?>
-
-	
-</select>
-
-
-
-
-
-
 
 
 
